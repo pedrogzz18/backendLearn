@@ -3,6 +3,14 @@ package com.app.backend.model;
 import java.util.Date;
 
 public class StudentModel {
+    private Integer id;
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
     public String getFirstName() {
         return firstName;
     }
